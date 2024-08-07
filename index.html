@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="">
+    <div class="header-section">
+        <div class="header-topics">
+            <img src="./mongolz.png" style="height:70px; width:70px;" alt="">
+            <a href="">News</a>
+            <a href="">Shop</a>
+            <a href="">Teams</a>
+            <a href="">Events</a>
+        </div>
+        <div class="cart-section">
+            <div class="cart">
+                <img src="./cart-icon.png" style="height:40px; width:40px" alt="">
+                <div class="quantity">0</div>
+            </div>
+            <a href="">Sign In</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="slider">
+            <div id="img">
+                <img src="./mongolz-1.avif" alt="image-1">
+            </div>
+
+        </div>
+        <div class="main-section">
+            <p>The MongolZ is a Mongolian leading esports organization in the world
+        </div>
+    </div>
+    <div class="content">
+        <h1>News & Matches</h1>
+        <div class="news-content">
+            <div class="news-container">
+                <div class="news1">
+                    <img src="././mongolz-4.jpg" alt="">
+                    <p>THE MONGOLZ <br>MISS OUT ON BLAST FALL SHOWDOWN</p>
+                </div>
+                <div class="news2">
+                    <img src="./910.jpg" alt="">
+                    <p>910 ON WINNING MVP: "INDESCRIBABLE FEELING"</p>
+                </div>
+            </div>
+            <div class="match">
+                <span class="match1"><b>UPCOMING MATCHES</b>
+                    <div class="upcoming">
+                        <p>IEM Cologne 2024</p>
+                        <div class="match-content">
+                            <img src="./mongolz.png" alt="">
+                            <img src="./versus.png" style="height:30px; width:30px" alt="">
+                            <img src="./saw-logo.avif" alt="">
+                        </div>
+                        <div class="match-date">7th of August 2024</div>
+                    </div>
+                </span>
+                <span class="match2"><b>MATCH HISTORY</b>
+                    <div class="history">
+                        <p>Skyesports Championship 2024</p>
+                        <div class="match-content">
+                            <img src="./mongolz.png" alt="">
+                            <div style="color:crimson; font-size:22px;">0-2</div>
+                            <img src="./3dmax.avif" alt="">
+                        </div>
+                        <div class="match-date">28th of July 2024
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="shop-section">
+        <span class="shop-header">
+            <h2>FEATURED <br>COLLECTION</h2>
+            <button class="shopbutton">VIEW MORE</button>
+        </span>
+        <div class="featured-collection">
+            <div class="collection">
+                <img src="./basic-hoodie2.jpg" alt="" id="img-2">
+                <img src="./basic-hoodie.jpg" alt="" id="img-1">
+                <p>Basic Hoodie</p>
+                <span>55$</span>
+                <button onclick="addToCart(1)">Add to cart</button>
+            </div>
+            <div class="collection">
+                <img src="./pro kit jersey-2.jpg" alt="" id="img-2">
+                <img src="./pro kit jersey.jpg" alt="" id="img-1">
+                <p>Pro Kit Jersey</p>
+                <span>45$</span>
+                <button onclick="addToCart(2)">Add to cart</button>
+            </div>
+            <div class="collection">
+                <img src="./gameday Jacket-2.jpg" alt="" id="img-2">
+                <img src="./gameday Jacket.jpg" alt="" id="img-1">
+                <p>Gameday Jacket </p>
+                <span>40$</span>
+                <button onclick="addToCart(3)">Add to cart</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <span class="follow">FOLLOW US</span>
+        <div class="icons">
+            <img src="./facebook-svgrepo-com.svg" alt="">
+            <img src="./instagram-svgrepo-com.svg" alt="">
+            <img src="./youtube-svgrepo-com.svg" alt="">
+            <img src="./twitch-svgrepo-com.svg" alt="">
+            <img src="./twitter-svgrepo-com.svg" alt="">
+        </div>
+    </div>
+    <div class="cartTab">
+        <h5>Shopping Cart</h5>
+        <div class="listCart">
+
+        </div>
+        <div class="btn">
+            <button class="checkOut">Check Out</button>
+            <button class="close">0</button>
+        </div>
+    </div>
+
+    <script src="./myproject.js"></script>
+</body>
+
+</html>

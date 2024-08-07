@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header-section {
+    display: flex;
+    height: 120px;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border-bottom: solid 1px;
+    align-items: center;
+    background-color: #1C242D;
+}
+
+.header-topics {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header-topics>a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.cart-section {
+    display: flex;
+    gap: 30px;
+
+}
+
+.header-login>a {
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.main {
+    display: flex;
+}
+
+
+#img>img {
+    width: 800px;
+    height: 600px;
+}
+
+.main-section {
+    box-sizing: border-box;
+    height: 500px;
+    width: 700px;
+
+}
+
+.main-section>p {
+    font-size: 20px;
+    margin-top: 30%;
+    margin-left: 30%
+}
+
+.main-section>a {
+    font-size: 20px;
+}
+
+.main {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.news-content {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.news-container {
+    display: flex;
+}
+
+.news1 {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    background-color: #1C242D;
+}
+
+.news2 {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    background-color: #1C242D;
+}
+
+.news1>img {
+    width: 500px;
+    height: 400px;
+    background-size: cover;
+}
+
+.news2>img {
+    width: 500px;
+    height: 400px;
+    background-size: cover;
+}
+
+.news1>img:hover {
+    transform: scale(1.1)
+}
+
+.news2>img:hover {
+    transform: scale(1.1)
+}
+
+.news1>p {
+    color: antiquewhite;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.news2>p {
+    color: antiquewhite;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.match {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    gap: 20px;
+}
+
+.match img {
+    height: 80px;
+    width: 100px;
+}
+
+.match p {
+    background-color: #dddde0;
+    color: black;
+    box-sizing: border-box;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.match-content {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.match-date {
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddde0;
+}
+
+.match span {
+    text-align: center;
+
+}
+
+.shop-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.featured-collection {
+    display: flex;
+}
+
+h2 {
+    font-size: 40px;
+    color: crimson;
+}
+
+.collection {
+    position: relative;
+    width: 400px;
+    height: 400px;
+
+}
+
+.collection>img {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    box-sizing: border-box;
+}
+
+.collection #img-1:hover {
+    opacity: 0;
+    cursor: pointer
+}
+
+.collection p {
+    position: absolute;
+    bottom: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.collection span {
+    position: absolute;
+    bottom: 25px;
+    left: 35%;
+    font-size: 20px;
+
+}
+
+.collection button {
+    position: absolute;
+    bottom: 0;
+    left: 28%;
+    background-color: crimson;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+}
+
+.shop-section {
+    display: flex;
+}
+
+.utube {
+    width: 100%;
+    height: 600px;
+    background-color: #1C242D;
+    text-align: center;
+}
+
+h3 {
+    color: #fff;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: #1C242D;
+    margin-top: 20px;
+
+}
+
+.icons>img {
+    width: 40px;
+    height: 30px;
+    background-color: #eee;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.follow {
+    font-size: 50px;
+    color: #eee;
+}
+
+.cart {
+    display: flex;
+    position: relative;
+    width: 60px;
+}
+
+.quantity {
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+    color: crimson;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.cartTab {
+    width: 400px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    inset: 0 -400px 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: 0.5s;
+}
+
+.btn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+h5 {
+    font-size: 26px;
+    text-align: center;
+}
+
+.cartTab .btn button {
+    border: none;
+    cursor: pointer;
+    background-color: yellowgreen;
+    font-size: 20px;
+}
+
+.cartTab .btn .close {
+    background-color: wheat;
+}
+
+body.showCart .cartTab {
+    inset: 0 0 0 auto;
+}
+
+.cart {
+    transition: transform 0.5s;
+}
+
+.productchange {
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.productchange span {
+    width: 30px;
+    height: 100px;
+    font-size: 20px;
+    padding-top: 40%;
+}
+
+.productchange button {
+    width: 40px;
+    height: 50px;
+    font-size: 30px;
+    background-color: white;
+    margin-top: 30%;
+}
+
+.cartproduct {
+    padding-top: 20px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.cartproduct span {
+    padding-top: 10%;
+}
+
+.cartproduct img {
+    height: 100px;
+    width: 80px;
+}
+
+.shopbutton {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #eee;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+
+}
